@@ -27,6 +27,7 @@ class StudentListAdapter(val studentList:ArrayList<Student>)
             val action = StudentListFragmentDirections.actionStudentDetail()
             Navigation.findNavController(it).navigate(action)
         }
+        //bug fix
     }
 
     override fun getItemCount(): Int {

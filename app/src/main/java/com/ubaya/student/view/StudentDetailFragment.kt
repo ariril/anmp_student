@@ -32,6 +32,7 @@ class StudentDetailFragment : Fragment() {
         observeViewModel()
     }
 
+
     private fun observeViewModel() {
         viewModel.studentLD.observe(viewLifecycleOwner, Observer {
             student ->
